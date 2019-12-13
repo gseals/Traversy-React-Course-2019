@@ -1,10 +1,11 @@
 import React from 'react';
-import TodoItem from './TodoItem';
+import PropTypes from 'prop-types';
+import TodoItems from './TodoItem';
 
 class Todos extends React.Component {
   render() {
     return this.props.todos.map((todo) => (
-    <TodoItem  key={todo.id} todo={todo}/>
+    <TodoItems key={todo.id} todo={todo}/>
     ));
   }
 }

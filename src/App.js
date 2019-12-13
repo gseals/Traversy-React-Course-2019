@@ -9,23 +9,24 @@ class App extends React.Component {
       {
         id: 1,
         title: 'Take out the trash',
-        completed: false
+        completed: false,
       },
       {
         id: 2,
         title: 'Dinner with wife',
-        completed: false
-        },
-        {
+        completed: false,
+      },
+      {
         id: 3,
         title: 'Meeting with boss',
-        completed: false
-          }
-    ]
+        completed: false,
+      },
+    ],
   }
+
   render() {
     return (
-     <div className="App">
+    <div className="App">
         <Todos todos={this.state.todos}/>
       </div>
     );

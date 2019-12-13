@@ -6,7 +6,7 @@ export class TodoItem extends React.Component {
       <div>
         <p> {this.props.todo.title} </p>
       </div>
-    )
+    );
   }
 }
 
