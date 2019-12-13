@@ -3,6 +3,8 @@ import Todos from './components/Todos';
 
 import './App.css';
 
+// stopped video at 38:40
+
 class App extends React.Component {
   state = {
     todos: [
@@ -14,7 +16,7 @@ class App extends React.Component {
       {
         id: 2,
         title: 'Dinner with wife',
-        completed: false,
+        completed: true,
       },
       {
         id: 3,
